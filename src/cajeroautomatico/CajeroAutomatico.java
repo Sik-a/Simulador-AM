@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package programacionfinal;
+package cajeroautomatico;
 
 import java.io.*;
 import java.util.Locale;
@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * @author Andrés Sicachá y Viviana Ríos
  * @version 1.0
  */
-public class ProgramacionFinal {
+public class CajeroAutomatico {
 
     // matrices globales
     static int[] tarjetas = new int[30];
@@ -516,4 +516,4 @@ public class ProgramacionFinal {
         return estaGuardado;
     } // Fin guardarDatosUsuarios
 
-} // Fin class ProgramacionFinal
+} // Fin class CajeroAutomatico
